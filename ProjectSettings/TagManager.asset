@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Killable
+  - Cover
+  - teleporter
   layers:
   - Default
   - TransparentFX
@@ -40,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3258395115
+    locked: 0
+  - name: Entity
+    uniqueID: 2884252977
+    locked: 0
+  - name: Heavens
+    uniqueID: 4066003555
     locked: 0
