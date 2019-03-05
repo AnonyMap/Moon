@@ -6,14 +6,15 @@ public class EnemyController : MonoBehaviour
 {
     public float maxSpeed;
     public Health hp;
-    public Rigidbody2D player;
     public Transform corpse;
 
     private Rigidbody2D rb2d;
+    private Rigidbody2D player;
 
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        player = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
     }
 
     void Update()
