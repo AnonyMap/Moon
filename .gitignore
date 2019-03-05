@@ -37,4 +37,4 @@ sysinfo.txt
 
 # Mac stuff
 .DS_Store
-ProjectSettings/TagManager.asset
+#ProjectSettings/TagManager.asset

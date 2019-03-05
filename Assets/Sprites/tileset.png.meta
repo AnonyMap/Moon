@@ -12,6 +12,7 @@ TextureImporter:
     21300014: tileset_7
     21300016: tileset_8
     21300018: tileset_9
+    21300020: tileset_10
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -282,13 +283,33 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 574358ffd0d7944c6a2648acd722e3d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8ae200c99cf4f198fa1fc149627c74
       vertices: []
       indices: 
       edges: []
