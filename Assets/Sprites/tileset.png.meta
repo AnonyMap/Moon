@@ -13,6 +13,14 @@ TextureImporter:
     21300016: tileset_8
     21300018: tileset_9
     21300020: tileset_10
+    21300022: chair
+    21300024: electric
+    21300026: couch_L
+    21300028: couch_R
+    21300030: lazer
+    21300032: computer
+    21300034: level_end
+    21300036: pointer
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -102,8 +110,8 @@ TextureImporter:
         y: 448
         width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.4964812, y: 0.5017605}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -303,13 +311,173 @@ TextureImporter:
         width: 96
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 9c8ae200c99cf4f198fa1fc149627c74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac71d03479f9466ba860a4759d41307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 224
+        width: 64
+        height: 32
+      alignment: 9
+      pivot: {x: 0.50251657, y: 0.5000021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea421ca173d34d78ad195408ea7f658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_L
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 288
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e39d23d4c6344c32b2f0fd1a208d36f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couch_R
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 287
+        width: 28
+        height: 65
+      alignment: 9
+      pivot: {x: 0.46782795, y: 0.47228205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1de85d98e4094a5e8978699dd9bfe1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lazer
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 80
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2913f74a6a84d43a29933b136132aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: computer
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 257
+        width: 95
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbcbde77a15b46208ee1ad207c506a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level_end
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 416
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552b8a09f2f534ccaba6a63d533471a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pointer
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b3c25d8bd6341699eec80e1b513d23
       vertices: []
       indices: 
       edges: []

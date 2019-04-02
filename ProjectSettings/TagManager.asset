@@ -7,6 +7,11 @@ TagManager:
   - Killable
   - Cover
   - teleporter
+  - Wall
+  - Floor
+  - Ethereal
+  - EnemyAttack
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX
@@ -16,7 +21,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Entity
   - 
   - 
   - 
@@ -41,14 +46,23 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2339311533
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Floor
     uniqueID: 3258395115
     locked: 0
+  - name: Wall
+    uniqueID: 2600131689
+    locked: 0
   - name: Entity
     uniqueID: 2884252977
+    locked: 0
+  - name: Player
+    uniqueID: 2683409933
     locked: 0
   - name: Heavens
     uniqueID: 4066003555

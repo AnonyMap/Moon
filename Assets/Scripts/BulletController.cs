@@ -19,9 +19,17 @@ public class BulletController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag != "Player")
+        if (collision.tag != "Player" && collision.tag != "Ethereal" && transform.parent.tag == "PlayerAttack" && collision.tag!="Untagged") 
         {
             if (collision.tag == "Killable")
+            {
+                collision.gameObject.GetComponent<Health>().takeDamage(dmg);
+            }
+            Destroy(transform.parent.gameObject);
+        }
+        else if (collision.tag != "Killable" && transform.parent.tag == "EnemyAttack")
+        {
+            if(collision.tag == "Player")
             {
                 collision.gameObject.GetComponent<Health>().takeDamage(dmg);
             }
